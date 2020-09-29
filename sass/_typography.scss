@@ -1,0 +1,71 @@
+// BODY
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.25rem;
+}
+
+// HERO
+
+.hero__body {
+    @media only screen and (max-width: 800px) {
+        text-align: center;
+    }
+
+    &__headline {
+        font-family: 'Poppins', sans-serif;
+        font-size: 5rem;
+        font-size: clamp(3.25rem, 3vw, 7rem);
+    }
+
+    &__subhead {
+        font-size: 2.25rem;
+        font-size: clamp(2rem, 1.25vw, 3.25rem);
+    }
+}
+
+// FEATURES
+
+.feature__body {
+    @media only screen and (max-width: 800px) {
+        text-align: center;
+    }
+
+    &__heading {
+        font-family: 'Poppins', sans-serif;
+        font-size: 4rem;
+        font-size: clamp(3rem, 2.5vw, 5.5rem);
+        font-weight: 500;
+    }
+
+    &__subheading {
+        color: var(--color-greyish-blue);
+        font-size: 2rem;
+        font-size: clamp(1.75rem, 1.15vw, 2.75rem);
+    }
+}
+
+// CTA
+
+.cta {
+    &__heading {
+        font-family: 'Poppins', sans-serif;
+        font-size: 4rem;
+        font-size: clamp(2.5rem, 2.5vw, 5.5rem);
+        font-weight: 500;
+        text-align: center;
+    }
+}
+
+// FOOTER
+
+.footer {
+    color: white;
+    font-size: 2rem;
+    font-size: clamp(1.8rem, 1.5vw, 2rem);
+    font-weight: 300;
+
+    &__copyright {
+        font-size: 1.25rem;
+    }
+}
