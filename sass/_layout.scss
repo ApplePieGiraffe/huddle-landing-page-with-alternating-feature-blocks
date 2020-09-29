@@ -283,3 +283,15 @@ body {
         }
     }
 }
+
+// ...ATTRIBUTION
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    transform: translateY(3rem);
+
+    a {
+        color: var(--color-greyish-blue);
+    }
+}

@@ -280,6 +280,13 @@ body {
       .footer__copyright {
         justify-content: center; } }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  transform: translateY(3rem); }
+  .attribution a {
+    color: var(--color-greyish-blue); }
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 2.25rem; }
